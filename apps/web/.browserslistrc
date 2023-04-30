@@ -1,0 +1,4 @@
+# Supported browsers when compiling with esbuild
+# Browsers can be excluded or added to the list through a browserslist query
+
+defaults
