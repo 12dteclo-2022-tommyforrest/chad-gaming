@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "chad-gaming",
+			"path": "../"
+		},
+		{
+			"name": "server",
+			"path": "../apps/server"
+		},
+		{
+			"name": "web",
+			"path": "../apps/web"
+		}
+	]
+}
