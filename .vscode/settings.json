@@ -4,6 +4,9 @@
 	"vitest.commandLine": "pnpm --filter \"web\" run test:unit",
 	"vitest.disabledWorkspaceFolders": ["server"],
 	"vitest.enable": true,
+	"vitest.include": [
+		"apps/web/src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"
+	],
 	"svelte.enable-ts-plugin": true,
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
