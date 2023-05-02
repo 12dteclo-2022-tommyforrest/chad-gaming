@@ -5,8 +5,7 @@
 	import logo from "$lib/assets/logo.png";
 </script>
 
-<header class="flex bg-slate-400 p-4">
-	<img class="flex-none w-8 h-fit inline-block" src={logo} alt="Brand logo." />
+<header class="bg-slate-400 p-4">
 	<Nav>
 		<NavItem name="Home" to="/" />
 		<NavItem name="Other Home" to="/" />
