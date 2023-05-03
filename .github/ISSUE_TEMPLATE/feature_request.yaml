@@ -1,0 +1,36 @@
+name: Feature Request
+description: File a feature request
+title: "[Feature]: "
+labels: ["bug", "frontend"]
+assignees:
+  - tommyforrest
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe the feature
+      description: Details are encouraged to ease implementation.
+      placeholder: Describe the feature here.
+    validations:
+      required: true
+  - type: textarea
+    id: implementation-details
+    attributes:
+      label: How could this feature be implemented?
+      description: Leave blank if unsure how the feature can be implemented.
+      placeholder: Describe how to implement the feature here.
+    validations:
+      required: false
+  - type: dropdown
+    id: stack
+    attributes:
+      label: What sections of the stack does this feature apply to?
+      multiple: true
+      options:
+        - Website
+        - Web Server
+        - Database
