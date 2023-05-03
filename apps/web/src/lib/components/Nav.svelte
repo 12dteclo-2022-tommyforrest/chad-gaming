@@ -1,6 +1,5 @@
 <script lang="ts">
 	import NavList from "$lib/components/NavList.svelte";
-
 	import logo from "$lib/assets/logo.png";
 
 	let open = false;
