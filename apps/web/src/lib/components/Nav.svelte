@@ -1,21 +1,23 @@
 <script lang="ts">
+	import NavList from "$lib/components/NavList.svelte";
+
 	import logo from "$lib/assets/logo.png";
 
 	let open = false;
 
-	const barTwoOpen = "opacity-0";
+	// Simplifies transition logic with a reactive boolean
+	$: shouldTransition = open && window.innerWidth < 768;
 
 	const toggleOpen = () => {
 		open = !open;
 	};
 </script>
 
-<nav class="grid grid-cols-11 md:grid-cols-20 row-auto">
+<nav class="grid grid-cols-11 md:grid-cols-20 row-auto md:shadow-sm md:shadow-slate-700">
 	<!-- Container for shadow on hamburger menu, switches to flexbox to center logo on medium screens -->
 	<div
-		class={`col-span-full p-4 md:p-0 md:pl-4 md:col-span-1 grid grid-cols-11 md:flex md:justify-center md:items-center ${
-			open && "shadow-sm shadow-black md:shadow-none"
-		}`}
+		class="col-span-full p-4 md:p-0 md:pl-4 md:col-span-1 grid grid-cols-11 md:flex md:justify-center md:items-center
+			shadow-sm shadow-slate-700 md:shadow-none"
 	>
 		<!-- Logo - links back to home page -->
 		<a class="col-span-1" href="/">
@@ -34,9 +36,8 @@
 					class:barOneOpen={open}
 				/>
 				<div
-					class={`w-9 h-1 bg-slate-950 mb-2 transition-all duration-300 ${
-						open && barTwoOpen
-					}`}
+					class="w-9 h-1 bg-slate-950 mb-2 transition-all duration-300"
+					class:opacity-0={open}
 				/>
 				<div
 					class="w-9 h-1 bg-slate-950 transition-all duration-300"
@@ -46,13 +47,9 @@
 		</div>
 	</div>
 
-	<ul
-		class={`${
-			open ? "block" : "hidden"
-		} col-span-full list-none p-4 align-middle md:block md:col-[span_19]`}
-	>
+	<NavList {open} transition={shouldTransition}>
 		<slot />
-	</ul>
+	</NavList>
 </nav>
 
 <style lang="postcss">
