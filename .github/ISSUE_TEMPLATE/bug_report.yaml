@@ -10,11 +10,11 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: textarea
-    id: what-happened
+    id: bug-description
     attributes:
-      label: What happened?
+      label: Describe the bug
       description: Additionally, what was expected to happen?
-      placeholder: Describe what happened here.
+      placeholder: Describe the bug and expected response here.
     validations:
       required: true
   - type: dropdown
