@@ -17,6 +17,14 @@ body:
       placeholder: Describe the bug and expected response here.
     validations:
       required: true
+  - type: textarea
+    id: reproduction-instructions
+    attributes:
+      label: How do you reproduce the bug?
+      description: Leave blank if unsure how the bug can be reproduced.
+      placeholder: Describe how to reproduce the bug here.
+    validations:
+      required: false
   - type: dropdown
     id: browsers
     attributes:
