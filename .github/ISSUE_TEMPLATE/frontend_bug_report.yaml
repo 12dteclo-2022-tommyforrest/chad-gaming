@@ -1,0 +1,43 @@
+name: Frontend Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "frontend"]
+assignees:
+  - tommyforrest
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: Additionally, what was expected to happen?
+      placeholder: Describe the bug and expected response here.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-instructions
+    attributes:
+      label: How do you reproduce the bug?
+      description: Leave blank if unsure how the bug can be reproduced.
+      placeholder: Describe how to reproduce the bug here.
+    validations:
+      required: false
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
