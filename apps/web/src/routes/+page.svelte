@@ -5,5 +5,5 @@
 	import logo from "$lib/assets/logo.png";
 </script>
 
-<h1 class="text-5xl text-center">Chad Gaming</h1>
+<h1 class="text-5xl text-center pt-4">Chad Gaming</h1>
 <h2 class="text-3xl text-center text-stone-700">Play games online</h2>
