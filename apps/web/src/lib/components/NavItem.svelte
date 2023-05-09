@@ -4,5 +4,5 @@
 </script>
 
 <li class="block md:inline p-2">
-	<a class="text-zinc-700 hover:text-sky-600 hover:underline" href={to}>{name}</a>
+	<a class="font-semibold text-zinc-700 hover:text-sky-600 hover:underline" href={to}>{name}</a>
 </li>
