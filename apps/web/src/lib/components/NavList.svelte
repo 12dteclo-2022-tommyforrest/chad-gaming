@@ -9,7 +9,7 @@
 	<ul
 		class={`${
 			open ? "block" : "hidden"
-		} col-span-full list-none p-4 align-middle md:block md:col-[span_19] shadow-sm shadow-slate-700 md:shadow-none`}
+		} col-span-full list-none px-4 py-2 align-middle md:block md:col-[span_19] shadow-sm shadow-slate-700 md:shadow-none`}
 		transition:slide={{ duration: 250 }}
 	>
 		<slot />
@@ -18,7 +18,7 @@
 	<ul
 		class={`${
 			open ? "block" : "hidden"
-		} col-span-full list-none p-4 align-middle md:block md:col-[span_19] shadow-sm shadow-slate-700 md:shadow-none`}
+		} col-span-full list-none px-4 py-2 align-middle md:block md:col-[span_19] shadow-sm shadow-slate-700 md:shadow-none`}
 	>
 		<slot />
 	</ul>
