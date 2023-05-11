@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { clsx } from "clsx";
 	import NavList from "$lib/components/NavList.svelte";
 	import logo from "$lib/assets/logo.png";
 
@@ -32,16 +33,19 @@
 				on:click={toggleOpen}
 			>
 				<div
-					class="mb-2 h-1 w-9 bg-slate-950 transition-all duration-300"
-					class:barOneOpen={open}
+					class={clsx("mb-2 h-1 w-9 bg-slate-950 transition-all duration-300", {
+						"translate-y-3 rotate-45 rounded-sm": open,
+					})}
 				/>
 				<div
-					class="mb-2 h-1 w-9 bg-slate-950 transition-all duration-300"
-					class:opacity-0={open}
+					class={clsx("mb-2 h-1 w-9 bg-slate-950 transition-all duration-300", {
+						"opacity-0": open,
+					})}
 				/>
 				<div
-					class="h-1 w-9 bg-slate-950 transition-all duration-300"
-					class:barThreeOpen={open}
+					class={clsx("h-1 w-9 bg-slate-950 transition-all duration-300", {
+						"-translate-y-3 -rotate-45 rounded-sm": open,
+					})}
 				/>
 			</button>
 		</div>
@@ -51,13 +55,3 @@
 		<slot />
 	</NavList>
 </nav>
-
-<style lang="postcss">
-	.barOneOpen {
-		transform: rotate(45deg) translate(8px, 11px);
-	}
-
-	.barThreeOpen {
-		transform: rotate(-45deg) translate(5px, -10px);
-	}
-</style>
