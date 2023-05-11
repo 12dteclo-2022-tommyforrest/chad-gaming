@@ -25,10 +25,11 @@
 
 		<!-- Hamburger menu, manually created with 3 divs and an overarching container that handles interactivity -->
 		<div class="col-start-12 block md:hidden" data-testid="hamburger">
-			<div
+			<button
+				aria-expanded={open}
+				aria-label="Navigation menu toggle"
 				class="mt-0.5 cursor-pointer md:hidden"
 				on:click={toggleOpen}
-				on:keypress={toggleOpen}
 			>
 				<div
 					class="mb-2 h-1 w-9 bg-slate-950 transition-all duration-300"
@@ -42,7 +43,7 @@
 					class="h-1 w-9 bg-slate-950 transition-all duration-300"
 					class:barThreeOpen={open}
 				/>
-			</div>
+			</button>
 		</div>
 	</div>
 
