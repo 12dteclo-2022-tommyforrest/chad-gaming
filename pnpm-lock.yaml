@@ -3,6 +3,10 @@ lockfileVersion: '6.0'
 importers:
 
   apps/web:
+    dependencies:
+      clsx:
+        specifier: ^1.2.1
+        version: 1.2.1
     devDependencies:
       '@playwright/test':
         specifier: ^1.28.1
@@ -859,6 +863,11 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /clsx@1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
+    dev: false
 
   /color-convert@2.0.1:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}

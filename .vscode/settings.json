@@ -9,6 +9,9 @@
 	],
 	"prettier.documentSelectors": ["**/*.svelte"],
 	"svelte.enable-ts-plugin": true,
+	"tailwindCSS.experimental.classRegex": [
+		["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+	],
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
