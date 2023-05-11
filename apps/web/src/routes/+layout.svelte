@@ -4,7 +4,7 @@
 	import "../app.css";
 </script>
 
-<header class="bg-white mb-4">
+<header class="mb-4 bg-white">
 	<Nav>
 		<NavItem name="Home" to="/" />
 		<NavItem name="Other Home" to="/" />
