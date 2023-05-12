@@ -9,9 +9,10 @@
 {#if transition}
 	<ul
 		class={clsx(
-			"col-span-full hidden list-none px-4 py-2 align-middle shadow-sm shadow-slate-700 md:col-[span_19] md:block md:shadow-none",
+			"col-span-full list-none px-4 py-2 align-middle shadow-sm shadow-slate-700 md:col-[span_19] md:block md:shadow-none",
 			{
 				block: open,
+				hidden: !open,
 			}
 		)}
 		transition:slide={{ duration: 250 }}
