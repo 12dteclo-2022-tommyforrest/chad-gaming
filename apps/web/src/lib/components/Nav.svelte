@@ -13,7 +13,7 @@
 	};
 </script>
 
-<nav class="row-auto grid grid-cols-11 md:grid-cols-20 md:shadow-sm md:shadow-slate-700">
+<nav class="row-auto grid grid-cols-11 md:grid-cols-20 md:py-2 md:shadow-sm md:shadow-slate-700">
 	<!-- Container for shadow on hamburger menu, switches to flexbox to center logo on medium screens -->
 	<div
 		class="col-span-full grid grid-cols-11 p-4 shadow-sm shadow-slate-700 md:col-span-1 md:flex md:items-center md:justify-center
