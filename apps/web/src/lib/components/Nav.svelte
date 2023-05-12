@@ -25,6 +25,7 @@
 		</a>
 
 		<!-- Hamburger menu, manually created with 3 divs and an overarching container that handles interactivity -->
+		<!-- The hamburger menu is made accessible by using a button in addition to ARIA properties -->
 		<div class="col-start-12 block md:hidden" data-testid="hamburger">
 			<button
 				aria-expanded={open}
