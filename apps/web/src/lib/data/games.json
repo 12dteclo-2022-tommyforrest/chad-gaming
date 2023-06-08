@@ -1,0 +1,10 @@
+{
+	"$schema": "./games.schema.json",
+	"games": [
+		{
+			"title": "Tic Tac Toe",
+			"description": "Game",
+			"img": "./thing"
+		}
+	]
+}

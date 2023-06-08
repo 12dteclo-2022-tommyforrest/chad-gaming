@@ -1,0 +1,47 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"$id": "https://example.com/object1686183686.json",
+	"title": "Root",
+	"type": "object",
+	"required": ["games"],
+	"properties": {
+		"games": {
+			"$id": "#root/games",
+			"title": "Games",
+			"type": "array",
+			"default": [],
+			"items": {
+				"$id": "#root/games/items",
+				"title": "Items",
+				"type": "object",
+				"required": ["title", "description", "img"],
+				"properties": {
+					"title": {
+						"$id": "#root/games/items/title",
+						"title": "Title",
+						"type": "string",
+						"default": "",
+						"examples": ["Tic Tac Toe"],
+						"pattern": "^.*$"
+					},
+					"description": {
+						"$id": "#root/games/items/description",
+						"title": "Description",
+						"type": "string",
+						"default": "",
+						"examples": ["Game"],
+						"pattern": "^.*$"
+					},
+					"img": {
+						"$id": "#root/games/items/img",
+						"title": "Img",
+						"type": "string",
+						"default": "",
+						"examples": ["./thing"],
+						"pattern": "^.*$"
+					}
+				}
+			}
+		}
+	}
+}
