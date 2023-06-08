@@ -1,9 +1,2 @@
-<script lang="ts">
-	import Nav from "$lib/components/Nav.svelte";
-	import NavItem from "$lib/components/NavItem.svelte";
-
-	import logo from "$lib/assets/logo.png";
-</script>
-
 <h1 class="text-center text-5xl">Chad Gaming</h1>
 <h2 class="text-center text-3xl text-stone-700">Play games online</h2>
