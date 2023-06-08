@@ -6,6 +6,6 @@
 <header class="mb-4 bg-white">
 	<Nav>
 		<NavItem name="Home" to="/" />
-		<NavItem name="Other Home" to="/" />
+		<NavItem name="Games" to="/games" />
 	</Nav>
 </header>
