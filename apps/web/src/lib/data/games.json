@@ -2,9 +2,9 @@
 	"$schema": "./games.schema.json",
 	"games": [
 		{
-			"title": "Tic Tac Toe",
-			"description": "Game",
-			"img": "./thing"
+			"title": "Tic Tac Toe (Local PvP)",
+			"description": "Play Tic Tac Toe against a friend on the same device.",
+			"img": "/src/lib/assets/logo.png"
 		}
 	]
 }
