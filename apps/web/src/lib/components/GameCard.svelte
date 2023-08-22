@@ -4,8 +4,12 @@
 	export let description: string;
 </script>
 
-<div>
-	<img src={img} alt={title} />
-	<h3>{title}</h3>
-	<p>{description}</p>
-</div>
+<a href="/">
+	<div
+		class="rounded-xl bg-zinc-200 p-4 shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:transition-shadow"
+	>
+		<img class="mx-auto" src={img} alt={title} />
+		<h3 class="text-center text-xl font-semibold">{title}</h3>
+		<p class="text-center text-lg">{description}</p>
+	</div>
+</a>
