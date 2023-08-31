@@ -96,14 +96,20 @@
 
 <h1 class="text-center text-5xl">Tic Tac Toe</h1>
 
-<div class="grid h-96 w-96 grid-cols-3 grid-rows-3">
-	{#each boardPositions as position, index}
-		<TicTacToeSquare
-			on:click={() => {
-				handleTurn(index);
-			}}
-			disableAnyway={gameOver}
-			inner={position}
-		/>
-	{/each}
+<div class="grid grid-cols-1 md:grid-cols-4">
+	<div />
+
+	<div class="mx-auto grid aspect-square w-2/3 grid-cols-3 grid-rows-3 md:col-span-2">
+		{#each boardPositions as position, index}
+			<TicTacToeSquare
+				on:click={() => {
+					handleTurn(index);
+				}}
+				disableAnyway={gameOver}
+				inner={position}
+			/>
+		{/each}
+	</div>
+
+	<div />
 </div>
