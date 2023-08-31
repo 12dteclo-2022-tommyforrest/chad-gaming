@@ -39,6 +39,14 @@
 						"default": "",
 						"examples": ["./thing"],
 						"pattern": "^.*$"
+					},
+					"url": {
+						"$id": "#root/games/items/url",
+						"title": "Url",
+						"type": "string",
+						"default": "",
+						"examples": ["/games/game"],
+						"pattern": "^.*$"
 					}
 				}
 			}

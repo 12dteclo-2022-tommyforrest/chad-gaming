@@ -2,9 +2,10 @@
 	export let img: string;
 	export let title: string;
 	export let description: string;
+	export let url: string;
 </script>
 
-<a href="/">
+<a href={url}>
 	<div
 		class="rounded-xl bg-zinc-400 p-4 shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:transition-shadow"
 	>
