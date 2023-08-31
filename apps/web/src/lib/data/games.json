@@ -2,9 +2,29 @@
 	"$schema": "./games.schema.json",
 	"games": [
 		{
-			"title": "Tic Tac Toe",
-			"description": "Game",
-			"img": "./thing"
+			"title": "Tic Tac Toe (Local PvP)",
+			"description": "Play Tic Tac Toe against a friend on the same device.",
+			"img": "/src/lib/assets/logo.png"
+		},
+		{
+			"title": "Snake",
+			"description": "The classic, relieving game of snake.",
+			"img": "/src/lib/assets/logo.png"
+		},
+		{
+			"title": "Tic Tac Toe (Single Player)",
+			"description": "Play Tic Tac Toe against the computer.",
+			"img": "/src/lib/assets/logo.png"
+		},
+		{
+			"title": "Tic Tac Toe (Online)",
+			"description": "Play Tic Tac Toe against another player online.",
+			"img": "/src/lib/assets/logo.png"
+		},
+		{
+			"title": "Broadside",
+			"description": "Play Broadside, a game where you each play with 5 ships, online.",
+			"img": "/src/lib/assets/logo.png"
 		}
 	]
 }

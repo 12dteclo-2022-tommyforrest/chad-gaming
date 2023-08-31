@@ -16,5 +16,7 @@
 		min-height: 100vh;
 		display: grid;
 		grid-template-rows: auto 1fr auto;
+		/* bg-zinc-500 */
+		background-color: rgb(113 113 122);
 	}
 </style>
