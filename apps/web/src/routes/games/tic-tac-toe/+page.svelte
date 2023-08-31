@@ -88,6 +88,22 @@
 				];
 				isXTurn = true;
 			}, 3000);
+		} else if (boardPositions.findIndex((value) => value === undefined) == -1) {
+			setTimeout(() => {
+				gameOver = false;
+				boardPositions = [
+					undefined,
+					undefined,
+					undefined,
+					undefined,
+					undefined,
+					undefined,
+					undefined,
+					undefined,
+					undefined,
+				];
+				isXTurn = true;
+			}, 3000);
 		} else {
 			isXTurn = !isXTurn;
 		}
