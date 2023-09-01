@@ -5,9 +5,10 @@ module.exports = {
 		"plugin:@typescript-eslint/recommended",
 		"plugin:svelte/recommended",
 		"prettier",
+		"plugin:sonarjs/recommended",
 	],
 	parser: "@typescript-eslint/parser",
-	plugins: ["@typescript-eslint"],
+	plugins: ["@typescript-eslint", "sonarjs"],
 	ignorePatterns: ["*.cjs"],
 	parserOptions: {
 		sourceType: "module",

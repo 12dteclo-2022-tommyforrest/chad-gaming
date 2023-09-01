@@ -17,10 +17,10 @@
 </script>
 
 <button
-	class="h-full w-full border-2 border-black bg-white"
+	class="h-full w-full border-2 border-black bg-yellow-100"
 	disabled={inner ? true : disableAnyway ? true : false}
 	on:click={onClick}
 	on:keypress={onClick}
 >
-	<p>{inner ? inner : ""}</p>
+	<p class="text-8xl">{inner ? inner : ""}</p>
 </button>
