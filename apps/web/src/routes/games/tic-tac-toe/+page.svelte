@@ -14,10 +14,10 @@
 		undefined,
 	] as Array<Player | undefined>;
 
-	const gameStats: Record<Player, Scores> = {
+	$: gameStats = {
 		[Player.X]: { wins: 0, losses: 0 },
 		[Player.O]: { wins: 0, losses: 0 },
-	};
+	} as Record<Player, Scores>;
 
 	let isXTurn = true;
 	$: gameOver = false;
@@ -68,9 +68,11 @@
 			if (isXTurn) {
 				gameStats.X.wins += 1;
 				gameStats.O.losses += 1;
+				gameStats = { ...gameStats };
 			} else {
 				gameStats.X.losses += 1;
 				gameStats.O.wins += 1;
+				gameStats = { ...gameStats };
 			}
 
 			setTimeout(() => {
@@ -112,8 +114,8 @@
 
 <h1 class="text-center text-5xl">Tic Tac Toe</h1>
 
-<div class="grid grid-cols-1 md:grid-cols-4">
-	<div>
+<div class="grid grid-cols-1 p-4 md:grid-cols-4">
+	<div class="grid grid-cols-1 grid-rows-2 rounded-lg border-4 border-black p-4">
 		<h2 class="text-3xl">Player: X</h2>
 
 		<div>
@@ -134,12 +136,12 @@
 		{/each}
 	</div>
 
-	<div>
-		<h2>Player: O</h2>
+	<div class="grid grid-cols-1 grid-rows-2 rounded-lg border-4 border-black p-4">
+		<h2 class="text-3xl">Player: O</h2>
 
 		<div>
-			<p>Wins: {gameStats.O.wins}</p>
-			<p>Losses: {gameStats.O.losses}</p>
+			<p class="text-xl">Wins: {gameStats.O.wins}</p>
+			<p class="text-xl">Losses: {gameStats.O.losses}</p>
 		</div>
 	</div>
 </div>
