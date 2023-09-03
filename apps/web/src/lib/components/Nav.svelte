@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { clsx } from "clsx";
 	import NavList from "$lib/components/NavList.svelte";
-	import logo from "$lib/assets/logo.png";
+	import logo from "$lib/assets/logo.svg";
 
 	let open = false;
 
