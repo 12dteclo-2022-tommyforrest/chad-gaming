@@ -6,30 +6,6 @@
 			"description": "Play Tic Tac Toe against a friend on the same device.",
 			"img": "/src/lib/assets/tic-tac-toe.png",
 			"url": "/games/tic-tac-toe"
-		},
-		{
-			"title": "Snake",
-			"description": "The classic, relieving game of snake.",
-			"img": "/src/lib/assets/logo.svg",
-			"url": "/games/tic-tac-toe"
-		},
-		{
-			"title": "Tic Tac Toe (Single Player)",
-			"description": "Play Tic Tac Toe against the computer.",
-			"img": "/src/lib/assets/logo.svg",
-			"url": "/games/tic-tac-toe"
-		},
-		{
-			"title": "Tic Tac Toe (Online)",
-			"description": "Play Tic Tac Toe against another player online.",
-			"img": "/src/lib/assets/logo.svg",
-			"url": "/games/tic-tac-toe"
-		},
-		{
-			"title": "Broadside",
-			"description": "Play Broadside, a game where you each play with 5 ships, online.",
-			"img": "/src/lib/assets/logo.svg",
-			"url": "/games/tic-tac-toe"
 		}
 	]
 }
