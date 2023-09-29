@@ -4,6 +4,10 @@
 	import "../app.css";
 </script>
 
+<svelte:head>
+	<title>Chad Gaming</title>
+</svelte:head>
+
 <Header />
 <main>
 	<slot />
