@@ -17,6 +17,6 @@
 		display: grid;
 		grid-template-rows: auto 1fr auto;
 		/* bg-zinc-500 */
-		background-color: rgb(113 113 122);
+		background-color: rgb(255, 255, 255)
 	}
 </style>

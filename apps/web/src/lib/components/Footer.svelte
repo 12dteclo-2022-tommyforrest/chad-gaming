@@ -2,6 +2,6 @@
 	const currentYear = new Date().getFullYear();
 </script>
 
-<footer class="w-full border-t-2 border-black bg-zinc-400 p-4 text-center">
-	<p>&copy; {currentYear} Tommy Forrest</p>
+<footer class="w-full border-t-2 bg-blue-600 p-4 text-center">
+	<p class="text-gray-200 font-semibold">&copy; {currentYear} Tommy Forrest</p>
 </footer>

@@ -34,17 +34,17 @@
 				on:click={toggleOpen}
 			>
 				<div
-					class={clsx("mb-2 h-1 w-9 bg-slate-950 transition-all duration-300", {
+					class={clsx("mb-2 h-1 w-9 bg-gray-200 transition-all duration-300", {
 						"translate-y-3 rotate-45 rounded-sm": open,
 					})}
 				/>
 				<div
-					class={clsx("mb-2 h-1 w-9 bg-slate-950 transition-all duration-300", {
+					class={clsx("mb-2 h-1 w-9 bg-gray-200 transition-all duration-300", {
 						"opacity-0": open,
 					})}
 				/>
 				<div
-					class={clsx("h-1 w-9 bg-slate-950 transition-all duration-300", {
+					class={clsx("h-1 w-9 bg-gray-200 transition-all duration-300", {
 						"-translate-y-3 -rotate-45 rounded-sm": open,
 					})}
 				/>

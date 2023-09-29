@@ -3,7 +3,7 @@
 	import NavItem from "$lib/components/NavItem.svelte";
 </script>
 
-<header class="mb-4 bg-zinc-400">
+<header class="mb-4 bg-blue-600">
 	<Nav>
 		<NavItem name="Home" to="/" />
 		<NavItem name="Games" to="/games" />
