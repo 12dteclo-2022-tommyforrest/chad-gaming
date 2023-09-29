@@ -114,8 +114,8 @@
 
 <h1 class="text-center text-5xl">Tic Tac Toe</h1>
 
-<div class="grid grid-cols-1 p-4 md:grid-cols-4">
-	<div class="grid grid-cols-1 grid-rows-2 rounded-lg border-4 border-black p-4">
+<div class="grid gap-4 md:gap-0 grid-cols-1 p-4 md:grid-cols-4">
+	<div class="grid grid-cols-1 bg-gray-200 w-2/3 md:w-full mx-auto grid-rows-2 rounded-lg border-4 border-black p-4">
 		<h2 class="text-3xl">Player: X</h2>
 
 		<div>
@@ -136,7 +136,7 @@
 		{/each}
 	</div>
 
-	<div class="grid grid-cols-1 grid-rows-2 rounded-lg border-4 border-black p-4">
+	<div class="grid grid-cols-1 bg-gray-200 w-2/3 md:w-full mx-auto grid-rows-2 rounded-lg border-4 border-black p-4">
 		<h2 class="text-3xl">Player: O</h2>
 
 		<div>

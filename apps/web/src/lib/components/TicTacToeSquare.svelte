@@ -12,15 +12,15 @@
 	export let inner: Player | undefined;
 
 	const onClick = () => {
-		dispatch("click");
+		dispatch("click", {});
 	};
 </script>
 
 <button
-	class="h-full w-full border-2 border-black bg-yellow-100"
+	class="h-full w-full border-2 border-black bg-white"
 	disabled={inner ? true : disableAnyway ? true : false}
 	on:click={onClick}
 	on:keypress={onClick}
 >
-	<p class="text-8xl">{inner ? inner : ""}</p>
+	<p class="text-6xl md:text-8xl">{inner ? inner : ""}</p>
 </button>
