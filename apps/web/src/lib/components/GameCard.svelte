@@ -4,7 +4,7 @@
 	export let description: string;
 	export let url: string;
 
-	import tempimg from "$lib/assets/tic-tac-toe.png";
+	import tempimg from "$lib/assets/tic-tac-toe.webp";
 </script>
 
 <a href={url}>

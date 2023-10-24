@@ -4,7 +4,7 @@
 		{
 			"title": "Tic Tac Toe (Local PvP)",
 			"description": "Play Tic Tac Toe against a friend on the same device.",
-			"img": "/src/lib/assets/tic-tac-toe.png",
+			"img": "/src/lib/assets/tic-tac-toe.webp",
 			"url": "/games/tic-tac-toe"
 		}
 	]
