@@ -5,6 +5,7 @@
 
 <header class="mb-4 bg-blue-600">
 	<Nav>
+		<!-- Hamburger Menu links -->
 		<NavItem name="Home" to="/" />
 		<NavItem name="Games" to="/games" />
 	</Nav>

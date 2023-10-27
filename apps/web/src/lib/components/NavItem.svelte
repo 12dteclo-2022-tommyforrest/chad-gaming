@@ -1,5 +1,12 @@
 <script lang="ts">
+	/**
+	 * Text displayed for the navigation item.
+	 */
 	export let name: string;
+
+	/**
+	 * The link that the user is sent to when the anchor is clicked.
+	 */
 	export let to: string;
 </script>
 

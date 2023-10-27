@@ -1,4 +1,5 @@
 <script lang="ts">
+	// Use current year for the copyright notice.
 	const currentYear: number = new Date().getFullYear();
 </script>
 
