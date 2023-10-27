@@ -29,7 +29,7 @@
 	>
 		<!-- Main elements of the card -->
 		<img class="mx-auto aspect-square h-36 w-fit" src={tempimg} alt={title} />
-		<h3 class="text-center text-xl font-semibold">{title}</h3>
+		<p class="text-center text-xl font-semibold">{title}</p>
 		<p class="text-center text-lg">{description}</p>
 	</div>
 </a>
