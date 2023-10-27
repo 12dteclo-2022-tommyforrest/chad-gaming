@@ -5,6 +5,7 @@
 <!-- Operates on the HTML head element -->
 <svelte:head>
 	<title>Home | Chad Gaming</title>
+	<meta name="description" content="Chad Gaming home page.">
 </svelte:head>
 
 <h1 class="text-center text-5xl">Chad Gaming</h1>

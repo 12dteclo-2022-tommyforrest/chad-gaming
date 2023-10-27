@@ -130,6 +130,7 @@
 <!-- Operates on the HTML head element -->
 <svelte:head>
 	<title>Tic Tac Toe | Chad Gaming</title>
+	<meta name="description" content="Tic Tac Toe online game.">
 </svelte:head>
 
 <h1 class="text-center text-5xl">Tic Tac Toe</h1>
