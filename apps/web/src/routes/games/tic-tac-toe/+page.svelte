@@ -129,7 +129,7 @@
 
 <!-- Operates on the HTML head element -->
 <svelte:head>
-	<head>Tic Tac Toe | Chad Gaming</head>
+	<title>Tic Tac Toe | Chad Gaming</title>
 </svelte:head>
 
 <h1 class="text-center text-5xl">Tic Tac Toe</h1>
